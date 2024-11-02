@@ -1,0 +1,54 @@
+/* Temel Stil Ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Açık gri arka plan */
+    color: #333; /* Koyu gri yazı rengi */
+}
+
+/* Ana Konteyner */
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Öğeleri alt alta hizalar */
+    align-items: center;
+}
+
+/* Logo Stili */
+.site-logo {
+    margin-bottom: 10px;
+}
+
+/* Instagram Linki Stili */
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    color: #fff; /* Beyaz yazı rengi */
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px; /* Daha yuvarlak köşeler */
+    background-color: #3f3f3f; /* Daha koyu gri arka plan */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölgelendirme */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.instagram-link i {
+    margin-right: 8px; /* İkon ile metin arasında boşluk */
+}
+
+/* Hover Efekti */
+.instagram-link:hover {
+    background-color: #333; /* Daha koyu gri hover rengi */
+    transform: translateY(-2px); /* Hover'da hafif yükselme */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Daha yoğun gölge */
+}
